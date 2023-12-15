@@ -4,9 +4,11 @@ pub mod day3;
 pub mod day4;
 pub mod day5;
 
-fn main() {
-    day5::part1();
+pub mod day8;
+pub mod day9;
+pub mod day10;
 
-    // let a = [1,2,3,4,5,6,7,8,9];
-    // println!("{:?}", &a[0..12]);
+fn main() {
+    day10::part1();
+
 }
